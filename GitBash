@@ -1,0 +1,16 @@
+git config --global user.name "Your Name"
+git config --global user.email "your-email@gmail.com"
+
+git config --global --list
+
+cd /c/Users/YourName/Desktop (I didn't use it)
+
+git clone https://github.com/USERNAME/REPO_NAME.git
+cd REPO_NAME.git
+vim shellscripting.sh (save & exit)
+git status (You’ll see: untracked → new file || modified → edited file)
+git add shellscripting.sh
+git commit -m "Add the shell script"
+git pull origin main
+git push
+
