@@ -17,7 +17,18 @@ git commit -m "Add the shell script"
 git pull origin main
 git push
 git checkout - lets you move to another branch or undo uncommitted changes.
+git checkout -b branchname
+Eg: git checkout -b division - then you can add changes in division branch and switch to main branch git checkout main.. changes won't br there
+git merge, git rebase, git cherry-pick
+git cherry-pick - copies a specific commit from one branch and applies it to another branch
+Merge-Git merge combines branches by creating a merge commit and preserves non-linear history.
+Rebase-Git rebase reapplies commits on top of another branch to create a linear history.
+
 git log - list of logs
+
 git remote -v - shows the GitHub (remote) URLs your repo talks to
 git remote add <name> <url>
+
+
 Fork - A fork is your own copy of someone else’s repository on GitHub
+Forking creates a copy of a repository on GitHub, while cloning downloads a repository to the local machine.
